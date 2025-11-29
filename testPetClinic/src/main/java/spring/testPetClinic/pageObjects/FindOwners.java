@@ -1,5 +1,7 @@
 package spring.testPetClinic.pageObjects;
 
+import java.util.Optional;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -39,18 +41,18 @@ public class FindOwners extends BaseClass {
 		action.typ(lastName,lName );
 	}
 
-	public Object KlickeAufFindOwner() {
+	public Optional<Object> KlickeAufFindOwner() {
 		action.klicken(findOwner, "findOwner");
 		String url = driver.getCurrentUrl();
 		if (action.wirdAngezeigt(driver, ownerNichtFinden)) {
 			return null ;
 		} 
 		else if(url.matches(".*/owners/\\d+$")){
-			return new OwnerInformation();
+			return Optional.of(new OwnerInformation());
 		}
 		else if(url.matches(".*/owners\\?lastName=[A-Za-z]+"))
 				{
-			return new Owners();
+			return Optional.of(new Owners());
 		}
 		else {
             throw new IllegalArgumentException("Invalid context: " + url);

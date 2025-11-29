@@ -38,7 +38,6 @@ public class AddNewPetVisitTest extends BaseClass {
 		Log.startTestCase("hinzufügenEinesNeuenBesuchsFürEinTier");
 		FindOwnersTest findOwnersTest = new FindOwnersTest();
 		findOwnersTest.sucheTierhalter(lastName);
-
 		ownerInformation = new OwnerInformation();
 		List<String> PetName = ownerInformation.bekommenPetName();
 

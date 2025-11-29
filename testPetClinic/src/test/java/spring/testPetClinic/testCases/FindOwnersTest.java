@@ -1,6 +1,7 @@
 package spring.testPetClinic.testCases;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -38,7 +39,12 @@ public class FindOwnersTest extends BaseClass {
 		findOwners.pruefenFindOwners();
 		Log.info("Die Seite „FindOwners“ wurde geladen.");
 		findOwners.typLastName(lastName);
-		Object pageObject = findOwners.KlickeAufFindOwner();
+
+		Optional<Object> pageObjectOpt = findOwners.KlickeAufFindOwner();
+		Assert.assertTrue(pageObjectOpt.isPresent(), "No valid page context found!");
+
+		Object pageObject = pageObjectOpt.get();
+
 		if (pageObject instanceof OwnerInformation) {
 			ownerInformation = (OwnerInformation) pageObject;
 			String ownerName = ownerInformation.bekommenOwnerName();
