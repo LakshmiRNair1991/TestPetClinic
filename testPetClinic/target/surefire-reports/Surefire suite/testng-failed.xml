@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="spring.testPetClinic.testCases.AddNewPetVisitTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ladenConfig"/>
+          <include name="setup"/>
+          <include name="hinzufügenEinesNeuenBesuchsFürEinTier"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- spring.testPetClinic.testCases.AddNewPetVisitTest -->
+      <class name="spring.testPetClinic.testCases.AddOwnerTest">
+        <methods>
+          <include name="ladenConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="anlegenEinesTierhalters"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- spring.testPetClinic.testCases.AddOwnerTest -->
+      <class name="spring.testPetClinic.testCases.HomePageTest">
+        <methods>
+          <include name="ladenConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="pruefenHomePage"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- spring.testPetClinic.testCases.HomePageTest -->
+      <class name="spring.testPetClinic.testCases.AddNewPetTest">
+        <methods>
+          <include name="ladenConfig"/>
+          <include name="anlegenEinesNeuenTiersZuEinemTierhalter"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- spring.testPetClinic.testCases.AddNewPetTest -->
+      <class name="spring.testPetClinic.testCases.FindOwnersTest">
+        <methods>
+          <include name="ladenConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="sucheNachEinemTierhalter"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- spring.testPetClinic.testCases.FindOwnersTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

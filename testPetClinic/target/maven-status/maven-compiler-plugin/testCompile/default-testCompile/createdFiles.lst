@@ -1,0 +1,5 @@
+spring\testPetClinic\testCases\AddNewPetTest.class
+spring\testPetClinic\testCases\AddOwnerTest.class
+spring\testPetClinic\testCases\FindOwnersTest.class
+spring\testPetClinic\testCases\HomePageTest.class
+spring\testPetClinic\testCases\AddNewPetVisitTest.class

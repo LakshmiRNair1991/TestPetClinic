@@ -1,0 +1,21 @@
+
+{
+  "visits": [
+    {
+      "date": "29-11-2025",
+      "description": "Doctor"
+    },
+    {
+      "date": "30-11-2025",
+      "description": "Bath"
+    },
+    {
+      "date": "01-12-2025",
+      "description": "Vaccination"
+    },
+    {
+      "date": "02-12-2025",
+      "description": "Grooming"
+    }
+  ]
+}

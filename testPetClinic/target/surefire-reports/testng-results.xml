@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-29T17:07:33 MEZ" name="Surefire suite" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="199">
+    <groups>
+    </groups>
+    <test started-at="2025-11-29T17:07:33 MEZ" name="Surefire test" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="199">
+      <class name="spring.testPetClinic.testCases.AddNewPetTest">
+        <test-method is-config="true" signature="ladenConfig()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@72a7c7e0]" started-at="2025-11-29T17:07:33 MEZ" name="ladenConfig" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="133" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ladenConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@72a7c7e0]" started-at="2025-11-29T17:07:33 MEZ" name="setup" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="anlegenEinesNeuenTiersZuEinemTierhalter(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@72a7c7e0]" started-at="2025-11-29T17:07:33 MEZ" name="anlegenEinesNeuenTiersZuEinemTierhalter" data-provider="lastNameWithRandomPetProvider" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Franklin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{name=Oscar, birthDate=2016-11-05, type=rabbit}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anlegenEinesNeuenTiersZuEinemTierhalter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@72a7c7e0]" started-at="2025-11-29T17:07:33 MEZ" name="tearDown" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@72a7c7e0]" started-at="2025-11-29T17:07:33 MEZ" name="afterSuite" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- spring.testPetClinic.testCases.AddNewPetTest -->
+      <class name="spring.testPetClinic.testCases.AddNewPetVisitTest">
+        <test-method signature="hinzufügenEinesNeuenBesuchsFürEinTier(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@5a63f509]" started-at="2025-11-29T17:07:33 MEZ" name="hinzufügenEinesNeuenBesuchsFürEinTier" data-provider="lastNameWithRandomPetVisitProvider" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Davis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{date=29-11-2025, description=Doctor}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hinzufügenEinesNeuenBesuchsFürEinTier -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@5a63f509]" started-at="2025-11-29T17:07:33 MEZ" name="setup" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@5a63f509]" started-at="2025-11-29T17:07:33 MEZ" name="tearDown" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- spring.testPetClinic.testCases.AddNewPetVisitTest -->
+      <class name="spring.testPetClinic.testCases.HomePageTest">
+        <test-method signature="pruefenHomePage()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@e056f20]" started-at="2025-11-29T17:07:33 MEZ" name="pruefenHomePage" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruefenHomePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@e056f20]" started-at="2025-11-29T17:07:33 MEZ" name="setup" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@e056f20]" started-at="2025-11-29T17:07:33 MEZ" name="tearDown" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- spring.testPetClinic.testCases.HomePageTest -->
+      <class name="spring.testPetClinic.testCases.FindOwnersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@34b7ac2f]" started-at="2025-11-29T17:07:33 MEZ" name="setup" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sucheNachEinemTierhalter(java.lang.String)[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@34b7ac2f]" started-at="2025-11-29T17:07:33 MEZ" name="sucheNachEinemTierhalter" data-provider="lastname" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Schroeder]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucheNachEinemTierhalter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@34b7ac2f]" started-at="2025-11-29T17:07:33 MEZ" name="tearDown" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- spring.testPetClinic.testCases.FindOwnersTest -->
+      <class name="spring.testPetClinic.testCases.AddOwnerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@6e4784bc]" started-at="2025-11-29T17:07:33 MEZ" name="setup" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="anlegenEinesTierhalters(java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@6e4784bc]" started-at="2025-11-29T17:07:33 MEZ" name="anlegenEinesTierhalters" data-provider="ownerDetailsProvider" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Mark, lastName=Taylor, address=789 Road, city=Munich, telephone=5556667778}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.config.ConfigStore.getStore()" because "store" is null
+at com.aventstack.extentreports.config.external.XmlConfigLoader.apply(XmlConfigLoader.java:48)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:96)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.loadXMLConfig(ExtentSparkReporter.java:101)
+at spring.testPetClinic.Utility.ExtentManager.setExtent(ExtentManager.java:18)
+at spring.testPetClinic.base.BaseClass.ladenConfig(BaseClass.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anlegenEinesTierhalters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@6e4784bc]" started-at="2025-11-29T17:07:33 MEZ" name="tearDown" finished-at="2025-11-29T17:07:33 MEZ" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- spring.testPetClinic.testCases.AddOwnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

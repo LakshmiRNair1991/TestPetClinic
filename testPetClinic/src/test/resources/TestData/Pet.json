@@ -1,0 +1,25 @@
+
+{
+  "pets": [
+    {
+      "name": "Milo",
+      "birthDate": "2012-03-15",
+      "type": "dog"
+    },
+    {
+      "name": "Luna",
+      "birthDate": "2018-07-22",
+      "type": "cat"
+    },
+    {
+      "name": "Oscar",
+      "birthDate": "2016-11-05",
+      "type": "rabbit"
+    },
+    {
+      "name": "Bella",
+      "birthDate": "2020-01-30",
+      "type": "hamster"
+    }
+  ]
+}
