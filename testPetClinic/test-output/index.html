@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\LakshmiRNair\eclipse-workspace\testPetClinic\testng.xml</span>
+                    <span>C:\Users\LakshmiRNair\git\TestPetClinic\testPetClinic\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddNewPetTest" class="method navigator-link" hash-for-method="anlegenEinesNeuenTiersZuEinemTierhalter(Davis, {name=Luna, birthDate=2018-07-22, type=cat})">anlegenEinesNeuenTiersZuEinemTierhalter(Davis, {name=Luna, birthDate=2018-07-22, type=cat})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddNewPetVisitTest" class="method navigator-link" hash-for-method="hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=30-11-2025, description=Bath})">hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=30-11-2025, description=Bath})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.FindOwnersTest" class="method navigator-link" hash-for-method="sucheNachEinemTierhalter(McTavish)">sucheNachEinemTierhalter(McTavish)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,27 +127,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddNewPetTest" class="method navigator-link" hash-for-method="anlegenEinesNeuenTiersZuEinemTierhalter(Franklin, {name=Luna, birthDate=2018-07-22, type=cat})">anlegenEinesNeuenTiersZuEinemTierhalter(Franklin, {name=Luna, birthDate=2018-07-22, type=cat})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddOwnerTest" class="method navigator-link" hash-for-method="anlegenEinesTierhalters({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891})">anlegenEinesTierhalters({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddNewPetVisitTest" class="method navigator-link" hash-for-method="hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=01-12-2025, description=Vaccination})">hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=01-12-2025, description=Vaccination})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.AddOwnerTest" class="method navigator-link" hash-for-method="anlegenEinesTierhalters({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212})">anlegenEinesTierhalters({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.HomePageTest" class="method navigator-link" hash-for-method="pruefenHomePage">pruefenHomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="spring.testPetClinic.testCases.FindOwnersTest" class="method navigator-link" hash-for-method="sucheNachEinemTierhalter(Escobito)">sucheNachEinemTierhalter(Escobito)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,22 +147,72 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">spring.testPetClinic.testCases.AddNewPetVisitTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=01-12-2025, description=Vaccination})">
-                  </a> <!-- hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=01-12-2025, description=Vaccination}) -->
+                  <a name="hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=30-11-2025, description=Bath})">
+                  </a> <!-- hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=30-11-2025, description=Bath}) -->
                   <span class="method-name">hinzufügenEinesNeuenBesuchsFürEinTier</span>
-                  <span class="parameters">(Escobito,{date=01-12-2025, description=Vaccination})</span>
+                  <span class="parameters">(Escobito,{date=30-11-2025, description=Bath})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+	at spring.testPetClinic.testCases.AddNewPetVisitTest.hinzufügenEinesNeuenBesuchsFürEinTier(AddNewPetVisitTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">spring.testPetClinic.testCases.AddNewPetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="anlegenEinesNeuenTiersZuEinemTierhalter(Davis, {name=Luna, birthDate=2018-07-22, type=cat})">
+                  </a> <!-- anlegenEinesNeuenTiersZuEinemTierhalter(Davis, {name=Luna, birthDate=2018-07-22, type=cat}) -->
+                  <span class="method-name">anlegenEinesNeuenTiersZuEinemTierhalter</span>
+                  <span class="parameters">(Davis,{name=Luna, birthDate=2018-07-22, type=cat})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+	at spring.testPetClinic.testCases.AddNewPetTest.anlegenEinesNeuenTiersZuEinemTierhalter(AddNewPetTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">spring.testPetClinic.testCases.FindOwnersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sucheNachEinemTierhalter(McTavish)">
+                  </a> <!-- sucheNachEinemTierhalter(McTavish) -->
+                  <span class="method-name">sucheNachEinemTierhalter</span>
+                  <span class="parameters">(McTavish)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+	at spring.testPetClinic.testCases.FindOwnersTest.sucheNachEinemTierhalter(FindOwnersTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -162,42 +221,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="anlegenEinesTierhalters({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891})">
-                  </a> <!-- anlegenEinesTierhalters({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891}) -->
+                  <a name="anlegenEinesTierhalters({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212})">
+                  </a> <!-- anlegenEinesTierhalters({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212}) -->
                   <span class="method-name">anlegenEinesTierhalters</span>
-                  <span class="parameters">({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">spring.testPetClinic.testCases.AddNewPetTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="anlegenEinesNeuenTiersZuEinemTierhalter(Franklin, {name=Luna, birthDate=2018-07-22, type=cat})">
-                  </a> <!-- anlegenEinesNeuenTiersZuEinemTierhalter(Franklin, {name=Luna, birthDate=2018-07-22, type=cat}) -->
-                  <span class="method-name">anlegenEinesNeuenTiersZuEinemTierhalter</span>
-                  <span class="parameters">(Franklin,{name=Luna, birthDate=2018-07-22, type=cat})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">spring.testPetClinic.testCases.FindOwnersTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sucheNachEinemTierhalter(Escobito)">
-                  </a> <!-- sucheNachEinemTierhalter(Escobito) -->
-                  <span class="method-name">sucheNachEinemTierhalter</span>
-                  <span class="parameters">(Escobito)</span>
+                  <span class="parameters">({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,7 +247,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\LakshmiRNair\eclipse-workspace\testPetClinic\testng.xml</span>
+            <span class="header-content">C:\Users\LakshmiRNair\git\TestPetClinic\testPetClinic\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -278,30 +305,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hinzufügenEinesNeuenBesuchsFürEinTier')
-data.setCell(0, 2, 'spring.testPetClinic.testCases.AddNewPetVisitTest')
-data.setCell(0, 3, 21720);
+data.setCell(0, 1, 'anlegenEinesTierhalters')
+data.setCell(0, 2, 'spring.testPetClinic.testCases.AddOwnerTest')
+data.setCell(0, 3, 1527);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'anlegenEinesNeuenTiersZuEinemTierhalter')
-data.setCell(1, 2, 'spring.testPetClinic.testCases.AddNewPetTest')
-data.setCell(1, 3, 11591);
+data.setCell(1, 1, 'pruefenHomePage')
+data.setCell(1, 2, 'spring.testPetClinic.testCases.HomePageTest')
+data.setCell(1, 3, 684);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'sucheNachEinemTierhalter')
-data.setCell(2, 2, 'spring.testPetClinic.testCases.FindOwnersTest')
-data.setCell(2, 3, 10959);
+data.setCell(2, 1, 'hinzufügenEinesNeuenBesuchsFürEinTier')
+data.setCell(2, 2, 'spring.testPetClinic.testCases.AddNewPetVisitTest')
+data.setCell(2, 3, 569);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'anlegenEinesTierhalters')
-data.setCell(3, 2, 'spring.testPetClinic.testCases.AddOwnerTest')
-data.setCell(3, 3, 1736);
+data.setCell(3, 1, 'anlegenEinesNeuenTiersZuEinemTierhalter')
+data.setCell(3, 2, 'spring.testPetClinic.testCases.AddNewPetTest')
+data.setCell(3, 3, 568);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'pruefenHomePage')
-data.setCell(4, 2, 'spring.testPetClinic.testCases.HomePageTest')
-data.setCell(4, 3, 603);
+data.setCell(4, 1, 'sucheNachEinemTierhalter')
+data.setCell(4, 2, 'spring.testPetClinic.testCases.FindOwnersTest')
+data.setCell(4, 3, 548);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -370,82 +397,88 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">280 ms</span>
+                <span class="method-start">251 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pruefenHomePage</span>
-                <span class="method-start">3604 ms</span>
+                <span class="method-start">1720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4212 ms</span>
+                <span class="method-start">2411 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">spring.testPetClinic.testCases.FindOwnersTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4401 ms</span>
+                <span class="method-start">2624 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">sucheNachEinemTierhalter(Escobito)</span>
-                <span class="method-start">5401 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sucheNachEinemTierhalter(McTavish)</span>
+                <span class="method-start">3658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16361 ms</span>
+                <span class="method-start">4363 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">spring.testPetClinic.testCases.AddOwnerTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">16585 ms</span>
+                <span class="method-start">4568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">anlegenEinesTierhalters({firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891})</span>
-                <span class="method-start">17626 ms</span>
+                <span class="method-name">anlegenEinesTierhalters({firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212})</span>
+                <span class="method-start">5609 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19366 ms</span>
+                <span class="method-start">7140 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">spring.testPetClinic.testCases.AddNewPetTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19586 ms</span>
+                <span class="method-start">7346 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">anlegenEinesNeuenTiersZuEinemTierhalter(Franklin, {name=Luna, birthDate=2018-07-22, type=cat})</span>
-                <span class="method-start">20558 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">anlegenEinesNeuenTiersZuEinemTierhalter(Davis, {name=Luna, birthDate=2018-07-22, type=cat})</span>
+                <span class="method-start">8382 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32151 ms</span>
+                <span class="method-start">9080 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">spring.testPetClinic.testCases.AddNewPetVisitTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">33895 ms</span>
+                <span class="method-start">9269 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=01-12-2025, description=Vaccination})</span>
-                <span class="method-start">34752 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">hinzufügenEinesNeuenBesuchsFürEinTier(Escobito, {date=30-11-2025, description=Bath})</span>
+                <span class="method-start">10185 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">56474 ms</span>
+                <span class="method-start">10870 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">spring.testPetClinic.testCases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">56701 ms</span>
+                <span class="method-start">11090 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

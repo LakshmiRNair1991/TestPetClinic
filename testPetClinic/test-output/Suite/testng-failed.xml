@@ -11,23 +11,14 @@
           <include name="tearDown"/>
           <include name="ladenConfig"/>
           <include name="setup"/>
-          <include name="hinzufügenEinesNeuenBesuchsFürEinTier"/>
+          <include name="hinzufügenEinesNeuenBesuchsFürEinTier" invocation-numbers="0"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- spring.testPetClinic.testCases.AddNewPetVisitTest -->
-      <class name="spring.testPetClinic.testCases.AddOwnerTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="ladenConfig"/>
-          <include name="anlegenEinesTierhalters"/>
-          <include name="setup"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- spring.testPetClinic.testCases.AddOwnerTest -->
       <class name="spring.testPetClinic.testCases.AddNewPetTest">
         <methods>
           <include name="ladenConfig"/>
-          <include name="anlegenEinesNeuenTiersZuEinemTierhalter"/>
+          <include name="anlegenEinesNeuenTiersZuEinemTierhalter" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="afterSuite"/>
           <include name="tearDown"/>
@@ -38,19 +29,10 @@
           <include name="ladenConfig"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="sucheNachEinemTierhalter"/>
+          <include name="sucheNachEinemTierhalter" invocation-numbers="0"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- spring.testPetClinic.testCases.FindOwnersTest -->
-      <class name="spring.testPetClinic.testCases.HomePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="ladenConfig"/>
-          <include name="tearDown"/>
-          <include name="pruefenHomePage"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- spring.testPetClinic.testCases.HomePageTest -->
     </classes>
   </test> <!-- Testng(failed) -->
 </suite> <!-- Failed suite [Suite] -->

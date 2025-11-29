@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-29T17:23:19 MEZ" name="Suite" finished-at="2025-11-29T17:24:15 MEZ" duration-ms="56435">
+  <suite started-at="2025-11-29T21:36:20 MEZ" name="Suite" finished-at="2025-11-29T21:36:31 MEZ" duration-ms="10839">
     <groups>
     </groups>
-    <test started-at="2025-11-29T17:23:19 MEZ" name="Testng" finished-at="2025-11-29T17:24:15 MEZ" duration-ms="56435">
+    <test started-at="2025-11-29T21:36:20 MEZ" name="Testng" finished-at="2025-11-29T21:36:31 MEZ" duration-ms="10839">
       <class name="spring.testPetClinic.testCases.AddNewPetTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T17:23:38 MEZ" name="setup" finished-at="2025-11-29T17:23:39 MEZ" duration-ms="972" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T21:36:27 MEZ" name="setup" finished-at="2025-11-29T21:36:28 MEZ" duration-ms="1036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="anlegenEinesNeuenTiersZuEinemTierhalter(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T17:23:39 MEZ" name="anlegenEinesNeuenTiersZuEinemTierhalter" data-provider="lastNameWithRandomPetProvider" finished-at="2025-11-29T17:23:50 MEZ" duration-ms="11591" status="PASS">
+        <test-method signature="anlegenEinesNeuenTiersZuEinemTierhalter(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T21:36:28 MEZ" name="anlegenEinesNeuenTiersZuEinemTierhalter" data-provider="lastNameWithRandomPetProvider" finished-at="2025-11-29T21:36:29 MEZ" duration-ms="568" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Franklin]]>
+                <![CDATA[Davis]]>
               </value>
             </param>
             <param index="1">
@@ -24,20 +24,61 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+at spring.testPetClinic.testCases.AddNewPetTest.anlegenEinesNeuenTiersZuEinemTierhalter(AddNewPetTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anlegenEinesNeuenTiersZuEinemTierhalter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T17:23:50 MEZ" name="tearDown" finished-at="2025-11-29T17:23:52 MEZ" duration-ms="1741" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetTest@7c6908d7]" started-at="2025-11-29T21:36:29 MEZ" name="tearDown" finished-at="2025-11-29T21:36:29 MEZ" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- spring.testPetClinic.testCases.AddNewPetTest -->
       <class name="spring.testPetClinic.testCases.AddNewPetVisitTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T17:23:52 MEZ" name="setup" finished-at="2025-11-29T17:23:53 MEZ" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T21:36:29 MEZ" name="setup" finished-at="2025-11-29T21:36:30 MEZ" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hinzufügenEinesNeuenBesuchsFürEinTier(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T17:23:53 MEZ" name="hinzufügenEinesNeuenBesuchsFürEinTier" data-provider="lastNameWithRandomPetVisitProvider" finished-at="2025-11-29T17:24:15 MEZ" duration-ms="21720" status="PASS">
+        <test-method signature="hinzufügenEinesNeuenBesuchsFürEinTier(java.lang.String,java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T21:36:30 MEZ" name="hinzufügenEinesNeuenBesuchsFürEinTier" data-provider="lastNameWithRandomPetVisitProvider" finished-at="2025-11-29T21:36:31 MEZ" duration-ms="569" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -46,78 +87,160 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[{date=01-12-2025, description=Vaccination}]]>
+                <![CDATA[{date=30-11-2025, description=Bath}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+at spring.testPetClinic.testCases.AddNewPetVisitTest.hinzufügenEinesNeuenBesuchsFürEinTier(AddNewPetVisitTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hinzufügenEinesNeuenBesuchsFürEinTier -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T17:24:15 MEZ" name="tearDown" finished-at="2025-11-29T17:24:15 MEZ" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddNewPetVisitTest@3c9754d8]" started-at="2025-11-29T21:36:31 MEZ" name="tearDown" finished-at="2025-11-29T21:36:31 MEZ" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- spring.testPetClinic.testCases.AddNewPetVisitTest -->
       <class name="spring.testPetClinic.testCases.HomePageTest">
-        <test-method is-config="true" signature="ladenConfig()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T17:23:18 MEZ" name="ladenConfig" finished-at="2025-11-29T17:23:19 MEZ" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="ladenConfig()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T21:36:20 MEZ" name="ladenConfig" finished-at="2025-11-29T21:36:20 MEZ" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ladenConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T17:23:19 MEZ" name="setup" finished-at="2025-11-29T17:23:22 MEZ" duration-ms="3323" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T21:36:20 MEZ" name="setup" finished-at="2025-11-29T21:36:22 MEZ" duration-ms="1468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="pruefenHomePage()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T17:23:22 MEZ" name="pruefenHomePage" finished-at="2025-11-29T17:23:23 MEZ" duration-ms="603" status="PASS">
+        <test-method signature="pruefenHomePage()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T21:36:22 MEZ" name="pruefenHomePage" finished-at="2025-11-29T21:36:22 MEZ" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruefenHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T17:23:23 MEZ" name="tearDown" finished-at="2025-11-29T17:23:23 MEZ" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T21:36:22 MEZ" name="tearDown" finished-at="2025-11-29T21:36:23 MEZ" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T17:24:15 MEZ" name="afterSuite" finished-at="2025-11-29T17:24:15 MEZ" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:spring.testPetClinic.testCases.HomePageTest@62ddbd7e]" started-at="2025-11-29T21:36:31 MEZ" name="afterSuite" finished-at="2025-11-29T21:36:31 MEZ" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- spring.testPetClinic.testCases.HomePageTest -->
       <class name="spring.testPetClinic.testCases.FindOwnersTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T17:23:23 MEZ" name="setup" finished-at="2025-11-29T17:23:23 MEZ" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T21:36:23 MEZ" name="setup" finished-at="2025-11-29T21:36:23 MEZ" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sucheNachEinemTierhalter(java.lang.String)[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T17:23:24 MEZ" name="sucheNachEinemTierhalter" data-provider="lastname" finished-at="2025-11-29T17:23:35 MEZ" duration-ms="10959" status="PASS">
+        <test-method signature="sucheNachEinemTierhalter(java.lang.String)[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T21:36:24 MEZ" name="sucheNachEinemTierhalter" data-provider="lastname" finished-at="2025-11-29T21:36:24 MEZ" duration-ms="548" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Escobito]]>
+                <![CDATA[McTavish]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at spring.testPetClinic.testCases.FindOwnersTest.sucheTierhalter(FindOwnersTest.java:42)
+at spring.testPetClinic.testCases.FindOwnersTest.sucheNachEinemTierhalter(FindOwnersTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sucheNachEinemTierhalter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T17:23:35 MEZ" name="tearDown" finished-at="2025-11-29T17:23:35 MEZ" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.FindOwnersTest@3857f613]" started-at="2025-11-29T21:36:24 MEZ" name="tearDown" finished-at="2025-11-29T21:36:24 MEZ" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- spring.testPetClinic.testCases.FindOwnersTest -->
       <class name="spring.testPetClinic.testCases.AddOwnerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T17:23:35 MEZ" name="setup" finished-at="2025-11-29T17:23:36 MEZ" duration-ms="1041" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T21:36:24 MEZ" name="setup" finished-at="2025-11-29T21:36:25 MEZ" duration-ms="1040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="anlegenEinesTierhalters(java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T17:23:36 MEZ" name="anlegenEinesTierhalters" data-provider="ownerDetailsProvider" finished-at="2025-11-29T17:23:38 MEZ" duration-ms="1736" status="PASS">
+        <test-method signature="anlegenEinesTierhalters(java.util.Map)[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T21:36:25 MEZ" name="anlegenEinesTierhalters" data-provider="ownerDetailsProvider" finished-at="2025-11-29T21:36:27 MEZ" duration-ms="1527" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{firstName=John, lastName=Doe, address=123 Street, city=Berlin, telephone=1234567891}]]>
+                <![CDATA[{firstName=Alice, lastName=Smith, address=456 Avenue, city=Hamburg, telephone=9876543212}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- anlegenEinesTierhalters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T17:23:38 MEZ" name="tearDown" finished-at="2025-11-29T17:23:38 MEZ" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:spring.testPetClinic.testCases.AddOwnerTest@198b6731]" started-at="2025-11-29T21:36:27 MEZ" name="tearDown" finished-at="2025-11-29T21:36:27 MEZ" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

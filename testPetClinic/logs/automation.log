@@ -293,3 +293,145 @@
 2025-11-29 17:24:04 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Maria Escobito
 2025-11-29 17:24:15 [main] INFO  spring.testPetClinic.Utility.Log - Neu PetVisit ist erstellt: null
 2025-11-29 17:24:15 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST END=========================================
+2025-11-29 20:29:22 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 20:29:22 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 20:29:22 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 20:29:22 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 20:29:24 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 20:29:24 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:29:24 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:29:35 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: David Schroeder
+2025-11-29 20:29:35 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST END=========================================
+2025-11-29 20:29:36 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 20:29:36 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:29:36 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:29:36 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 20:29:36 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 20:29:37 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: Alice Smith
+2025-11-29 20:29:37 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 20:29:37 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 20:29:39 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 20:29:39 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:29:39 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:29:50 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Maria Escobito
+2025-11-29 20:29:50 [main] INFO  spring.testPetClinic.Utility.Log - Neu Pet ist erstellt: Oscar
+2025-11-29 20:29:50 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST END=========================================
+2025-11-29 20:29:53 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 20:29:53 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:29:53 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:30:04 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Peter McTavish
+2025-11-29 20:30:15 [main] INFO  spring.testPetClinic.Utility.Log - Neu PetVisit ist erstellt: null
+2025-11-29 20:30:15 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST END=========================================
+2025-11-29 20:39:01 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 20:39:01 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 20:39:01 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 20:39:01 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 20:39:03 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 20:39:03 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:39:03 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:39:14 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Peter McTavish
+2025-11-29 20:39:14 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST END=========================================
+2025-11-29 20:39:15 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 20:39:15 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:39:15 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:39:15 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 20:39:15 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 20:39:16 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: Mark Taylor
+2025-11-29 20:39:16 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 20:39:16 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 20:39:17 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 20:39:17 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:39:18 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:39:28 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Jean Coleman
+2025-11-29 20:39:29 [main] INFO  spring.testPetClinic.Utility.Log - Neu Pet ist erstellt: Bella
+2025-11-29 20:39:29 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST END=========================================
+2025-11-29 20:39:30 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 20:39:30 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:39:31 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:39:41 [main] INFO  spring.testPetClinic.Utility.Log - Owner Gefunden: Carlos Estaban
+2025-11-29 20:39:52 [main] INFO  spring.testPetClinic.Utility.Log - Neu PetVisit ist erstellt: null
+2025-11-29 20:39:52 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST END=========================================
+2025-11-29 20:51:53 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 20:51:53 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 20:51:53 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 20:51:53 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 20:51:54 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 20:51:54 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:51:54 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:51:56 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 20:51:56 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:51:56 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:51:56 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 20:51:56 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 20:51:57 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: Alice Smith
+2025-11-29 20:51:57 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 20:51:57 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 20:51:58 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 20:51:58 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:51:59 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:52:00 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 20:52:00 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:52:00 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:56:24 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 20:56:24 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 20:56:24 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 20:56:24 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 20:56:26 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 20:56:26 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:56:26 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:56:28 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 20:56:28 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:56:28 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:56:28 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 20:56:29 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 20:56:29 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: John Doe
+2025-11-29 20:56:29 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 20:56:29 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 20:56:31 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 20:56:31 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:56:31 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 20:56:32 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 20:56:32 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 20:56:33 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:33:43 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 21:33:43 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 21:33:44 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 21:33:44 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 21:33:45 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 21:33:45 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:33:45 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:33:47 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 21:33:47 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:33:47 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:33:47 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 21:33:48 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 21:33:49 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: Alice Smith
+2025-11-29 21:33:49 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 21:33:49 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 21:33:50 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 21:33:50 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:33:50 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:33:52 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 21:33:52 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:33:52 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:36:22 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST START=========================================
+2025-11-29 21:36:22 [main] INFO  spring.testPetClinic.Utility.Log - Pruefen das Haustierbild und Welcome angezeigt.
+2025-11-29 21:36:22 [main] INFO  spring.testPetClinic.Utility.Log - Das Haustierbild und Welcome werden angezeigt.
+2025-11-29 21:36:22 [main] INFO  spring.testPetClinic.Utility.Log - =====================================pruefenHomePage TEST END=========================================
+2025-11-29 21:36:24 [main] INFO  spring.testPetClinic.Utility.Log - =====================================sucheNachEinemTierhalter TEST START=========================================
+2025-11-29 21:36:24 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:36:24 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:36:25 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST START=========================================
+2025-11-29 21:36:26 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:36:26 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:36:26 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf AddOwners
+2025-11-29 21:36:26 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „AddOwners“ wurde geladen.
+2025-11-29 21:36:27 [main] INFO  spring.testPetClinic.Utility.Log - Owner erstellt: Alice Smith
+2025-11-29 21:36:27 [main] INFO  spring.testPetClinic.Utility.Log - Erstellte einen Tierhalter.
+2025-11-29 21:36:27 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesTierhalters TEST END=========================================
+2025-11-29 21:36:28 [main] INFO  spring.testPetClinic.Utility.Log - =====================================anlegenEinesNeuenTiersZuEinemTierhalter TEST START=========================================
+2025-11-29 21:36:28 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:36:29 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.
+2025-11-29 21:36:30 [main] INFO  spring.testPetClinic.Utility.Log - =====================================hinzufügenEinesNeuenBesuchsFürEinTier TEST START=========================================
+2025-11-29 21:36:30 [main] INFO  spring.testPetClinic.Utility.Log - Klicken Auf FindOwners
+2025-11-29 21:36:30 [main] INFO  spring.testPetClinic.Utility.Log - Die Seite „FindOwners“ wurde geladen.

@@ -182,17 +182,24 @@ public class Action extends BaseClass {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String destination = System.getProperty("user.dir") + "\\ScreenShots\\" + filename + "_" + dateName + ".png";
+		 String relativePath = "test-output/ExtentReport/" 
+		            + filename + "_" + dateName + ".png";
+
+		    String absolutePath = System.getProperty("user.dir") + File.separator + relativePath;
 
 		try {
-			FileUtils.copyFile(source, new File(destination));
+			FileUtils.copyFile(source, new File(absolutePath));
 		} catch (Exception e) {
 			e.getMessage();
 		}
-		// This new path for jenkins
-		String newImageString = "http://localhost:8080/job/Magneto_CICD/ws/Magneto-Store/ScreenShots/" + filename + "_"
-				+ dateName + ".png";
-		return destination;
+		
+		if (System.getenv("JENKINS_HOME") != null) {
+	        // Running on Jenkins → return RELATIVE path
+	        return relativePath;
+	    } else {
+	        // Local run → return ABSOLUTE path
+	        return absolutePath;
+	    }
 	}
 
 }
