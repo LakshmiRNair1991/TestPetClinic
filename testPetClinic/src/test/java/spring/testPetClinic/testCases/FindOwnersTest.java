@@ -39,7 +39,6 @@ public class FindOwnersTest extends BaseClass {
 		findOwners.pruefenFindOwners();
 		Log.info("Die Seite „FindOwners“ wurde geladen.");
 		findOwners.typLastName(lastName);
-		Assert.fail();
 
 		Optional<Object> pageObjectOpt = findOwners.KlickeAufFindOwner();
 		Assert.assertTrue(pageObjectOpt.isPresent(), "No valid page context found!");
