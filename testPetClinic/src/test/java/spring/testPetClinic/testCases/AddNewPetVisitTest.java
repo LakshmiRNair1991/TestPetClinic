@@ -34,8 +34,8 @@ public class AddNewPetVisitTest extends BaseClass {
 	}
 
 	@Test(dataProvider = "lastNameWithRandomPetVisitProvider", dataProviderClass = DataProviders.class)
-	public void hinzufügenEinesNeuenBesuchsFürEinTier(String lastName, Map<String, String> details) {
-		Log.startTestCase("hinzufügenEinesNeuenBesuchsFürEinTier");
+	public void hinzufuegenEinesNeuenBesuchsFurEinTier(String lastName, Map<String, String> details) {
+		Log.startTestCase("hinzufuegenEinesNeuenBesuchsFurEinTier");
 		FindOwnersTest findOwnersTest = new FindOwnersTest();
 		findOwnersTest.sucheTierhalter(lastName);
 		ownerInformation = new OwnerInformation();
@@ -71,6 +71,6 @@ public class AddNewPetVisitTest extends BaseClass {
 			Assert.fail("der Halter hat kein Tier");
 		}
 
-		Log.endTestCase("hinzufügenEinesNeuenBesuchsFürEinTier");
+		Log.endTestCase("hinzufuegenEinesNeuenBesuchsFurEinTier");
 	}
 }
