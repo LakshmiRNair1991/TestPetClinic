@@ -1,3 +1,4 @@
+
 package spring.testPetClinic.testCases;
 
 import java.util.List;
@@ -37,15 +38,19 @@ public class AddNewPetVisitTest extends BaseClass {
 		Log.startTestCase("hinzufügenEinesNeuenBesuchsFürEinTier");
 		FindOwnersTest findOwnersTest = new FindOwnersTest();
 		findOwnersTest.sucheTierhalter(lastName);
+
 		ownerInformation = new OwnerInformation();
 		List<String> PetName = ownerInformation.bekommenPetName();
+
 		if (PetName != null) {
 			newPetVisit = ownerInformation.KlickeAufAddVisit();
 			ownerInformation = newPetVisit.erstellenPetVisit(details);
+
 			if (ownerInformation != null) {
 				Assert.assertTrue(
 						ownerInformation.erfolgMsgPetVisitWirdAngezeigt().contains("Your visit has been booked"),
 						"Neu PetVisit ist nicht erstellt");
+
 				List<Map<String, String>> PetNameVisitLatest = ownerInformation.bekommenPetVisitDate();
 
 				String expectedIsoDate = ownerInformation.tauschDateFormat(details.get("date"));
@@ -68,7 +73,5 @@ public class AddNewPetVisitTest extends BaseClass {
 		}
 
 		Log.endTestCase("hinzufügenEinesNeuenBesuchsFürEinTier");
-
 	}
-
 }
