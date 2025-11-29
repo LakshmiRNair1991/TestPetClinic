@@ -192,7 +192,7 @@ public class Action extends BaseClass {
 		// This new path for jenkins
 		String newImageString = "http://localhost:8080/job/Magneto_CICD/ws/Magneto-Store/ScreenShots/" + filename + "_"
 				+ dateName + ".png";
-		return newImageString;
+		return destination;
 	}
 
 }
