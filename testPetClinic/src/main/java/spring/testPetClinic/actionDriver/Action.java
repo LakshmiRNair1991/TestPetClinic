@@ -182,10 +182,10 @@ public class Action extends BaseClass {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		 String relativePath = "test-output/ExtentReport/" 
+		 String relativePath = "http://localhost:1991/job/TestPetClinic/ws/testPetClinic/test-output/ExtentReport/" 
 		            + filename + "_" + dateName + ".png";
 
-		    String absolutePath = System.getProperty("user.dir") + File.separator + relativePath;
+		    String absolutePath = System.getProperty("user.dir") + "\\test-output/ExtentReport\\"  + filename + "_" + dateName + ".png";
 
 		try {
 			FileUtils.copyFile(source, new File(absolutePath));
